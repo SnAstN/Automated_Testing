@@ -5,6 +5,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.Test;
 import org.junit.jupiter.api.BeforeEach;
 
+import java.util.ArrayList;
+
 
 public class RegistrationFormTest {
     @Test
@@ -12,6 +14,7 @@ public class RegistrationFormTest {
         RegistrationForm registrationForm = new RegistrationForm();
         boolean result = registrationForm.Check("User", "user12@gmail.com", "124376asdf1");
         Assertions.assertTrue(result);
+
     }
 
 
